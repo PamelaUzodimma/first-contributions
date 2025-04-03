@@ -1,0 +1,18 @@
+2025-04-01 10:01:59.771 [info] (Client) Pylance async client (2025.3.2) started with python extension (2025.2.0)
+2025-04-01 10:02:00.368 [info] [Info  - 10:02:00 AM] (1983) Server root directory: file:///home/pamela/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.2/dist
+2025-04-01 10:02:00.369 [info] [Info  - 10:02:00 AM] (1983) Pylance language server 2025.3.2 (pyright version 1.1.396, commit 3e2236a7) starting
+2025-04-01 10:02:00.394 [info] [Info  - 10:02:00 AM] (1983) Starting service instance "<default>"
+2025-04-01 10:02:00.446 [info] [Info  - 10:02:00 AM] (1983) No include entries specified; assuming /<default workspace root>
+2025-04-01 10:02:00.447 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/node_modules
+2025-04-01 10:02:00.447 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/__pycache__
+2025-04-01 10:02:00.447 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/.*
+2025-04-01 10:02:00.530 [info] [Error - 10:02:00 AM] (1983) File or directory "/<default workspace root>" does not exist.
+2025-04-01 10:02:00.530 [info] [Info  - 10:02:00 AM] (1983) No source files found.
+2025-04-01 10:02:00.589 [info] [Info  - 10:02:00 AM] (1983) No include entries specified; assuming /<default workspace root>
+2025-04-01 10:02:00.592 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/node_modules
+2025-04-01 10:02:00.592 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/__pycache__
+2025-04-01 10:02:00.593 [info] [Info  - 10:02:00 AM] (1983) Auto-excluding **/.*
+2025-04-01 10:02:00.706 [info] [Error - 10:02:00 AM] (1983) File or directory "/<default workspace root>" does not exist.
+2025-04-01 10:02:00.708 [info] [Info  - 10:02:00 AM] (1983) No source files found.
+2025-04-01 10:02:01.219 [info] [Info  - 10:02:01 AM] (1983) Priority queue background worker(2) root directory: file:///home/pamela/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.2/dist
+2025-04-01 10:02:01.220 [info] [Info  - 10:02:01 AM] (1983) Priority queue background worker(2) started

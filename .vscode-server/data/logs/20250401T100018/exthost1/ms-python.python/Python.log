@@ -1,0 +1,23 @@
+2025-04-01 10:01:58.846 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-04-01 10:01:58.846 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-01 10:01:58.846 [info] Native locator: Refresh started
+2025-04-01 10:01:58.846 [error] Python discovery not supported in untrusted workspace
+2025-04-01 10:01:58.846 [info] Native locator: Refresh finished in 12 ms
+2025-04-01 10:01:58.922 [info] > C:\Users\Dell\AppData\Local\Programs\Python\Python312\python.exe -c "import sys;print(sys.executable)"
+2025-04-01 10:01:58.959 [error] [Error: Command failed: C:\Users\Dell\AppData\Local\Programs\Python\Python312\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersDellAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -c "import sys;print(sys.executable)"'
+}
+2025-04-01 10:02:00.387 [info] Starting Pylance language server.
