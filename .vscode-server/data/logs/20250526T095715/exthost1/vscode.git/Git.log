@@ -1,0 +1,122 @@
+2025-05-26 09:57:20.716 [info] [main] Log level: Info
+2025-05-26 09:57:20.716 [info] [main] Validating found git in: "git"
+2025-05-26 09:57:20.716 [info] [main] Using git "2.34.1" from "git"
+2025-05-26 09:57:20.716 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-26 09:57:20.716 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-26 09:57:20.718 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-05-26 09:57:20.742 [info] [Model][openRepository] Opened repository: /home/pamela
+2025-05-26 09:57:20.750 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-26 09:57:20.912 [info] > git config --get commit.template [155ms]
+2025-05-26 09:57:20.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-05-26 09:57:21.105 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [125ms]
+2025-05-26 09:57:21.309 [info] > git check-ignore -v -z --stdin [25ms]
+2025-05-26 09:57:23.588 [info] > git status -z -uall [2621ms] (cancelled)
+2025-05-26 09:57:26.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2681ms]
+2025-05-26 09:57:26.491 [info] > git config --get --local branch.main.vscode-merge-base [219ms]
+2025-05-26 09:57:26.499 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-26 09:57:26.515 [info] > git config --get commit.template [258ms]
+2025-05-26 09:57:26.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [281ms]
+2025-05-26 09:57:26.847 [info] > git reflog main --grep-reflog=branch: Created from *. [334ms]
+2025-05-26 09:57:26.871 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-05-26 09:57:26.889 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [21ms]
+2025-05-26 09:57:26.889 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-26 09:57:26.889 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-26 09:57:28.278 [info] > git status -z -uall [1443ms] (cancelled)
+2025-05-26 09:57:44.789 [info] > git check-ignore -v -z --stdin [56ms]
+2025-05-26 09:57:44.794 [info] > git show --textconv :odin-links-and-images/about.html [22ms]
+2025-05-26 09:57:44.810 [info] > git ls-files --stage -- odin-links-and-images/about.html [27ms]
+2025-05-26 09:57:44.819 [info] > git hash-object -t tree /dev/null [13ms]
+2025-05-26 09:57:44.820 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 09:57:44.828 [info] > git hash-object -t tree /dev/null [10ms]
+2025-05-26 09:57:44.828 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 09:58:19.559 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- odin-links-and-images/about.html [5ms]
+2025-05-26 09:58:19.559 [info] fatal: no such path odin-links-and-images/about.html in f30b764e2d33b37f8ebbe2738f2ae2dca6107361
+2025-05-26 09:58:50.981 [info] > git show --textconv :odin-links-and-images/index.html [42ms]
+2025-05-26 09:58:50.983 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 09:58:50.984 [info] > git ls-files --stage -- odin-links-and-images/index.html [25ms]
+2025-05-26 09:58:50.986 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 09:58:52.226 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- odin-links-and-images/index.html [5ms]
+2025-05-26 09:58:52.226 [info] fatal: no such path odin-links-and-images/index.html in f30b764e2d33b37f8ebbe2738f2ae2dca6107361
+2025-05-26 10:00:02.156 [info] > git show --textconv :odin-links-and-images/about.html [24ms]
+2025-05-26 10:00:02.158 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:00:02.159 [info] > git ls-files --stage -- odin-links-and-images/about.html [19ms]
+2025-05-26 10:00:02.161 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:00:12.206 [info] > git show --textconv :odin-links-and-images/index.html [31ms]
+2025-05-26 10:00:12.210 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:00:12.212 [info] > git ls-files --stage -- odin-links-and-images/index.html [26ms]
+2025-05-26 10:00:12.214 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:01:36.434 [info] > git show --textconv :odin-links-and-images/index.html [10ms]
+2025-05-26 10:01:36.435 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:01:36.438 [info] > git ls-files --stage -- odin-links-and-images/index.html [6ms]
+2025-05-26 10:01:36.438 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:08:41.030 [info] > git check-ignore -v -z --stdin [15ms]
+2025-05-26 10:08:52.417 [info] > git show --textconv :odin-links-and-images/pages.html [12ms]
+2025-05-26 10:08:52.420 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:08:52.423 [info] > git ls-files --stage -- odin-links-and-images/pages.html [12ms]
+2025-05-26 10:08:52.426 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:08:52.673 [info] > git check-ignore -v -z --stdin [7ms]
+2025-05-26 10:08:54.870 [info] > git show --textconv :odin-links-and-images/about.html [7ms]
+2025-05-26 10:08:54.871 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:08:54.874 [info] > git ls-files --stage -- odin-links-and-images/about.html [8ms]
+2025-05-26 10:08:54.875 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:09:01.348 [info] > git show --textconv :odin-links-and-images/pages.html [9ms]
+2025-05-26 10:09:01.351 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:09:01.352 [info] > git ls-files --stage -- odin-links-and-images/pages.html [8ms]
+2025-05-26 10:09:01.352 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:09:07.975 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- odin-links-and-images/pages.html [25ms]
+2025-05-26 10:09:07.975 [info] fatal: no such path odin-links-and-images/pages.html in f30b764e2d33b37f8ebbe2738f2ae2dca6107361
+2025-05-26 10:09:13.128 [info] > git show --textconv :odin-links-and-images/index.html [9ms]
+2025-05-26 10:09:13.130 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:09:13.134 [info] > git ls-files --stage -- odin-links-and-images/index.html [10ms]
+2025-05-26 10:09:13.136 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:19:36.390 [info] > git check-ignore -v -z --stdin [33ms]
+2025-05-26 10:22:00.527 [info] > git check-ignore -v -z --stdin [28ms]
+2025-05-26 10:41:05.365 [info] > git show --textconv :odin-links-and-images/index.html [14ms]
+2025-05-26 10:41:05.365 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:41:05.366 [info] > git ls-files --stage -- odin-links-and-images/index.html [8ms]
+2025-05-26 10:41:05.366 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:48.920 [info] > git ls-files --stage -- odin-links-and-images/about.html [50ms]
+2025-05-26 10:57:48.924 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:48.925 [info] > git show --textconv :odin-links-and-images/about.html [60ms]
+2025-05-26 10:57:48.927 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:56.280 [info] > git show --textconv :odin-links-and-images/index.html [12ms]
+2025-05-26 10:57:56.282 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:56.285 [info] > git ls-files --stage -- odin-links-and-images/index.html [10ms]
+2025-05-26 10:57:56.286 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:57.653 [info] > git show --textconv :odin-links-and-images/pages.html [19ms]
+2025-05-26 10:57:57.654 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:57:57.657 [info] > git ls-files --stage -- odin-links-and-images/pages.html [11ms]
+2025-05-26 10:57:57.658 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:58:05.143 [info] > git show --textconv :odin-links-and-images/index.html [9ms]
+2025-05-26 10:58:05.146 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:58:05.147 [info] > git ls-files --stage -- odin-links-and-images/index.html [8ms]
+2025-05-26 10:58:05.147 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:59:26.171 [info] > git show --textconv :odin-links-and-images/about.html [26ms]
+2025-05-26 10:59:26.172 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 10:59:26.173 [info] > git ls-files --stage -- odin-links-and-images/about.html [17ms]
+2025-05-26 10:59:26.173 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:10:35.909 [info] > git check-ignore -v -z --stdin [87ms]
+2025-05-26 11:25:36.661 [info] > git ls-files --stage -- odin-links-and-images/pages/pages [37ms]
+2025-05-26 11:25:36.665 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages/pages.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages%2Fpages%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:25:36.666 [info] > git show --textconv :odin-links-and-images/pages/pages [49ms]
+2025-05-26 11:25:36.668 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages/pages.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages%2Fpages%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:26:26.503 [info] > git show --textconv :odin-links-and-images/index.html [24ms]
+2025-05-26 11:26:26.505 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:26:26.505 [info] > git ls-files --stage -- odin-links-and-images/index.html [19ms]
+2025-05-26 11:26:26.509 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:29:49.623 [info] > git show --textconv :odin-links-and-images/about.html [19ms]
+2025-05-26 11:29:49.627 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:29:49.628 [info] > git ls-files --stage -- odin-links-and-images/about.html [17ms]
+2025-05-26 11:29:49.630 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/about.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fabout.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:29:53.091 [info] > git show --textconv :odin-links-and-images/pages.html [20ms]
+2025-05-26 11:29:53.093 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:29:53.094 [info] > git ls-files --stage -- odin-links-and-images/pages.html [15ms]
+2025-05-26 11:29:53.095 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:33:35.760 [info] > git show --textconv :odin-links-and-images/index.html [18ms]
+2025-05-26 11:33:35.763 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:33:35.765 [info] > git ls-files --stage -- odin-links-and-images/index.html [15ms]
+2025-05-26 11:33:35.766 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:33:45.197 [info] > git show --textconv :odin-links-and-images/pages.html [19ms]
+2025-05-26 11:33:45.199 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:33:45.206 [info] > git ls-files --stage -- odin-links-and-images/pages.html [18ms]
+2025-05-26 11:33:45.207 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/pages.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Fpages.html%22%2C%22ref%22%3A%22%22%7D

@@ -1,0 +1,38 @@
+2025-05-26 09:34:29.134 [info] 
+
+
+
+
+2025-05-26 09:34:29.178 [info] Extension host agent started.
+2025-05-26 09:34:29.412 [info] [127.0.0.1][ce75c6d3][ManagementConnection] New connection established.
+2025-05-26 09:34:30.694 [info] [127.0.0.1][2181029f][ExtensionHostConnection] New connection established.
+2025-05-26 09:34:30.707 [info] [127.0.0.1][2181029f][ExtensionHostConnection] <710> Launched Extension Host Process.
+2025-05-26 09:34:37.568 [info] Getting Manifest... ms-python.debugpy
+2025-05-26 09:34:37.570 [info] Getting Manifest... ms-python.python
+2025-05-26 09:34:37.571 [info] Getting Manifest... ms-python.vscode-pylance
+2025-05-26 09:34:38.256 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/pamela/.vscode-server/extensions/extensions.json","external":"file:///home/pamela/.vscode-server/extensions/extensions.json","path":"/home/pamela/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-05-26 09:34:38.324 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/pamela/.vscode-server/extensions/extensions.json","external":"file:///home/pamela/.vscode-server/extensions/extensions.json","path":"/home/pamela/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-05-26 09:34:38.996 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/pamela/.vscode-server/extensions/extensions.json","external":"file:///home/pamela/.vscode-server/extensions/extensions.json","path":"/home/pamela/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-05-26 09:34:40.267 [info] Getting Manifest... ms-python.vscode-pylance
+2025-05-26 09:34:40.407 [info] Getting Manifest... ms-python.python
+2025-05-26 09:34:40.507 [info] Getting Manifest... ms-python.debugpy
+2025-05-26 09:34:40.726 [info] Getting Manifest... ms-python.python
+2025-05-26 09:34:41.588 [info] Getting Manifest... ms-python.debugpy
+2025-05-26 09:34:41.601 [info] Getting Manifest... ms-python.vscode-pylance
+2025-05-26 09:35:03.479 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 8838ms.
+2025-05-26 09:35:06.545 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 5780ms.
+2025-05-26 09:35:10.634 [info] Extracted extension to file:///home/pamela/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64: ms-python.debugpy
+2025-05-26 09:35:10.860 [info] Renamed to /home/pamela/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64
+2025-05-26 09:35:10.978 [info] Marked extension as removed ms-python.debugpy-2025.6.0
+2025-05-26 09:35:10.994 [info] Extension installed successfully: ms-python.debugpy file:///home/pamela/.vscode-server/extensions/extensions.json
+2025-05-26 09:35:21.126 [info] Extracted extension to file:///home/pamela/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64: ms-python.python
+2025-05-26 09:35:22.347 [info] Renamed to /home/pamela/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64
+2025-05-26 09:35:22.494 [info] Marked extension as removed ms-python.python-2025.4.0
+2025-05-26 09:35:22.498 [info] Extension installed successfully: ms-python.python file:///home/pamela/.vscode-server/extensions/extensions.json
+2025-05-26 09:35:25.050 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 6926ms.
+2025-05-26 09:35:49.246 [info] Extracted extension to file:///home/pamela/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1: ms-python.vscode-pylance
+2025-05-26 09:35:50.322 [info] Renamed to /home/pamela/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1
+2025-05-26 09:35:50.392 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/pamela/.vscode-server/extensions/extensions.json
+2025-05-26 09:35:50.398 [info] Marked extension as removed ms-python.vscode-pylance-2025.4.1
+2025-05-26 09:57:08.171 [info] [127.0.0.1][ce75c6d3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-26 09:57:08.385 [info] [127.0.0.1][2181029f][ExtensionHostConnection] <710> Extension Host Process exited with code: 0, signal: null.

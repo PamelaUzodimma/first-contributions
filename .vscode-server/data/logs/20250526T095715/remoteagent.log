@@ -1,0 +1,42 @@
+2025-05-26 09:57:15.811 [info] 
+
+
+
+
+2025-05-26 09:57:15.812 [info] Extension host agent started.
+2025-05-26 09:57:15.895 [info] [127.0.0.1][73fd987c][ManagementConnection] New connection established.
+2025-05-26 09:57:16.737 [info] Deleted marked for removal extension from disk ms-python.debugpy /home/pamela/.vscode-server/extensions/ms-python.debugpy-2025.6.0
+2025-05-26 09:57:16.740 [info] Deleted marked for removal extension from disk ms-python.python /home/pamela/.vscode-server/extensions/ms-python.python-2025.4.0
+2025-05-26 09:57:16.741 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/pamela/.vscode-server/extensions/ms-python.vscode-pylance-2025.4.1
+2025-05-26 09:57:16.758 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] New connection established.
+2025-05-26 09:57:16.804 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> Launched Extension Host Process.
+2025-05-26 10:00:56.462 [info] Getting Manifest... ritwickdey.liveserver
+2025-05-26 10:00:57.238 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/pamela/.vscode-server/extensions/extensions.json","external":"file:///home/pamela/.vscode-server/extensions/extensions.json","path":"/home/pamela/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-05-26 10:01:05.440 [info] Extension signature verification result for ritwickdey.liveserver: Success. Internal Code: 0. Executed: true. Duration: 4528ms.
+2025-05-26 10:01:21.932 [info] Extracted extension to file:///home/pamela/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2025-05-26 10:01:22.525 [info] Renamed to /home/pamela/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2025-05-26 10:01:22.571 [info] Extension installed successfully: ritwickdey.liveserver file:///home/pamela/.vscode-server/extensions/extensions.json
+2025-05-26 10:01:52.782 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /favicon.ico [33m404[0m 3.552 ms - 150[0m
+
+2025-05-26 10:54:56.196 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 8.190 ms - 155[0m
+
+2025-05-26 10:57:12.305 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 1.785 ms - 155[0m
+
+2025-05-26 10:57:32.532 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 0.857 ms - 155[0m
+
+2025-05-26 10:57:37.917 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 1.056 ms - 155[0m
+
+2025-05-26 10:57:41.493 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 1.229 ms - 155[0m
+
+2025-05-26 10:57:43.343 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 2.191 ms - 155[0m
+
+2025-05-26 10:58:46.501 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 1.360 ms - 155[0m
+
+2025-05-26 10:58:49.039 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 1.272 ms - 155[0m
+
+2025-05-26 11:25:16.479 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /pages/about.html [33m404[0m 2.735 ms - 155[0m
+
+2025-05-26 11:29:13.303 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> [0mGET /about.html [33m404[0m 8.600 ms - 149[0m
+
+2025-05-26 11:34:02.320 [info] [127.0.0.1][73fd987c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-26 11:34:02.665 [info] [127.0.0.1][e5e0cf8b][ExtensionHostConnection] <2888> Extension Host Process exited with code: 0, signal: null.

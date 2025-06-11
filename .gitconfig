@@ -1,3 +1,10 @@
 [user]
-	name = PamelaUzodimma
+	name = Pamela Uzodimma
 	email = pamelauzodimma@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+	release = false
+[core]
+	editor = code --wait

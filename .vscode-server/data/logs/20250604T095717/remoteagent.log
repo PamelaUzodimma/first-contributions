@@ -1,0 +1,13 @@
+2025-06-04 09:57:18.412 [info] 
+
+
+
+
+2025-06-04 09:57:18.413 [info] Extension host agent started.
+2025-06-04 09:57:18.792 [info] [127.0.0.1][edbe3dc9][ManagementConnection] New connection established.
+2025-06-04 09:57:19.133 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 09:57:19.386 [info] [127.0.0.1][e02d21bd][ExtensionHostConnection] New connection established.
+2025-06-04 09:57:19.684 [info] [127.0.0.1][e02d21bd][ExtensionHostConnection] <959> Launched Extension Host Process.
+2025-06-04 09:57:25.395 [info] ComputeTargetPlatform: linux-x64
+2025-06-04 11:54:42.526 [info] [127.0.0.1][edbe3dc9][ManagementConnection] The client has reconnected.
+2025-06-04 11:54:47.251 [info] [127.0.0.1][e02d21bd][ExtensionHostConnection] The client has reconnected.

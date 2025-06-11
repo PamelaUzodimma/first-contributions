@@ -1,0 +1,11 @@
+2025-04-30 09:48:05.897 [info] 
+
+
+
+
+2025-04-30 09:48:05.954 [info] Extension host agent started.
+2025-04-30 09:48:06.334 [info] [127.0.0.1][9b5b8f96][ManagementConnection] New connection established.
+2025-04-30 09:48:06.872 [info] [127.0.0.1][e3897ba5][ExtensionHostConnection] New connection established.
+2025-04-30 09:48:07.175 [info] [127.0.0.1][e3897ba5][ExtensionHostConnection] <681> Launched Extension Host Process.
+2025-04-30 09:48:10.871 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-30 09:48:17.779 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET

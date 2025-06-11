@@ -1,0 +1,43 @@
+2025-06-04 09:57:26.853 [info] [main] Log level: Info
+2025-06-04 09:57:26.853 [info] [main] Validating found git in: "git"
+2025-06-04 09:57:26.853 [info] [main] Using git "2.34.1" from "git"
+2025-06-04 09:57:26.853 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-04 09:57:26.853 [info] > git rev-parse --show-toplevel [13ms]
+2025-06-04 09:57:26.854 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-04 09:57:26.884 [info] [Model][openRepository] Opened repository (path): /home/pamela
+2025-06-04 09:57:26.884 [info] [Model][openRepository] Opened repository (real path): /home/pamela
+2025-06-04 09:57:26.910 [info] > git config --get commit.template [7ms]
+2025-06-04 09:57:26.912 [info] > git rev-parse --show-toplevel [14ms]
+2025-06-04 09:57:26.930 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-04 09:57:26.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-06-04 09:57:27.055 [info] > git rev-parse --show-toplevel [118ms]
+2025-06-04 09:57:27.067 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-04 09:57:27.081 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [126ms]
+2025-06-04 09:57:27.401 [info] > git show --textconv :odin-links-and-images/index.html [23ms]
+2025-06-04 09:57:27.409 [info] > git ls-files --stage -- odin-links-and-images/index.html [24ms]
+2025-06-04 09:57:27.417 [info] > git hash-object -t tree /dev/null [9ms]
+2025-06-04 09:57:27.422 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-06-04 09:57:27.426 [info] > git hash-object -t tree /dev/null [11ms]
+2025-06-04 09:57:27.426 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-06-04 09:57:27.502 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- odin-links-and-images/index.html [5ms]
+2025-06-04 09:57:27.502 [info] fatal: no such path odin-links-and-images/index.html in f30b764e2d33b37f8ebbe2738f2ae2dca6107361
+2025-06-04 09:57:27.511 [info] > git check-ignore -v -z --stdin [28ms]
+2025-06-04 09:57:32.551 [info] > git status -z -uall [5604ms] (cancelled)
+2025-06-04 09:57:32.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2970ms]
+2025-06-04 09:57:32.732 [info] > git config --get --local branch.main.vscode-merge-base [168ms]
+2025-06-04 09:57:32.733 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-04 09:57:32.749 [info] > git config --get commit.template [206ms]
+2025-06-04 09:57:32.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [131ms]
+2025-06-04 09:57:32.970 [info] > git reflog main --grep-reflog=branch: Created from *. [223ms]
+2025-06-04 09:57:32.990 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-06-04 09:57:32.993 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2025-06-04 09:57:32.993 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-06-04 09:57:32.994 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-04 09:57:37.690 [info] > git status -z -uall [4728ms] (cancelled)
+2025-06-04 10:00:11.663 [info] > git show --textconv :# Contributors.md [34ms]
+2025-06-04 10:00:11.664 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/%23%20Contributors.md.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2F%23%20Contributors.md%22%2C%22ref%22%3A%22%22%7D
+2025-06-04 10:00:11.665 [info] > git ls-files --stage -- # Contributors.md [28ms]
+2025-06-04 10:00:11.666 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/%23%20Contributors.md.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2F%23%20Contributors.md%22%2C%22ref%22%3A%22%22%7D
+2025-06-04 10:00:11.694 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- # Contributors.md [8ms]
+2025-06-04 10:00:11.694 [info] fatal: no such path # Contributors.md in f30b764e2d33b37f8ebbe2738f2ae2dca6107361
+2025-06-04 10:00:12.184 [info] > git check-ignore -v -z --stdin [81ms]

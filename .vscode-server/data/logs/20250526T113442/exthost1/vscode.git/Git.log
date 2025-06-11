@@ -1,0 +1,35 @@
+2025-05-26 11:34:49.373 [info] [main] Log level: Info
+2025-05-26 11:34:49.373 [info] [main] Validating found git in: "git"
+2025-05-26 11:34:49.373 [info] [main] Using git "2.34.1" from "git"
+2025-05-26 11:34:49.373 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-26 11:34:49.374 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-26 11:34:49.374 [info] > git rev-parse --git-dir --git-common-dir [95ms]
+2025-05-26 11:34:49.374 [info] [Model][openRepository] Opened repository (path): /home/pamela
+2025-05-26 11:34:49.374 [info] [Model][openRepository] Opened repository (real path): /home/pamela
+2025-05-26 11:34:49.374 [info] > git rev-parse --show-toplevel [113ms]
+2025-05-26 11:34:49.374 [info] > git config --get commit.template [128ms]
+2025-05-26 11:34:49.377 [info] > git rev-parse --show-toplevel [43ms]
+2025-05-26 11:34:49.388 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-26 11:34:49.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-05-26 11:34:49.433 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-05-26 11:34:50.009 [info] > git check-ignore -v -z --stdin [136ms]
+2025-05-26 11:34:54.394 [info] > git status -z -uall [4991ms] (cancelled)
+2025-05-26 11:34:57.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2969ms]
+2025-05-26 11:34:57.747 [info] > git config --get --local branch.main.vscode-merge-base [388ms]
+2025-05-26 11:34:57.748 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-26 11:34:57.763 [info] > git config --get commit.template [432ms]
+2025-05-26 11:34:57.774 [info] > git reflog main --grep-reflog=branch: Created from *. [11ms]
+2025-05-26 11:34:57.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-05-26 11:34:57.796 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2025-05-26 11:34:57.796 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-26 11:34:57.796 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-26 11:34:57.811 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2025-05-26 11:34:59.336 [info] > git status -z -uall [1548ms] (cancelled)
+2025-05-26 11:35:03.856 [info] > git show --textconv :odin-links-and-images/index.html [28ms]
+2025-05-26 11:35:03.873 [info] > git ls-files --stage -- odin-links-and-images/index.html [33ms]
+2025-05-26 11:35:03.918 [info] > git hash-object -t tree /dev/null [48ms]
+2025-05-26 11:35:03.918 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:35:03.966 [info] > git hash-object -t tree /dev/null [52ms]
+2025-05-26 11:35:03.966 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pamela/odin-links-and-images/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fpamela%2Fodin-links-and-images%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-05-26 11:35:04.060 [info] > git blame --root --incremental f30b764e2d33b37f8ebbe2738f2ae2dca6107361 -- odin-links-and-images/index.html [7ms]
+2025-05-26 11:35:04.060 [info] fatal: no such path odin-links-and-images/index.html in f30b764e2d33b37f8ebbe2738f2ae2dca6107361

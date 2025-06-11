@@ -1,0 +1,26 @@
+2025-04-19 12:14:16.391 [info] [main] Log level: Info
+2025-04-19 12:14:16.391 [info] [main] Validating found git in: "git"
+2025-04-19 12:14:16.391 [info] [main] Using git "2.34.1" from "git"
+2025-04-19 12:14:16.391 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 12:14:16.391 [info] > git rev-parse --show-toplevel [71ms]
+2025-04-19 12:14:16.393 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2025-04-19 12:14:16.438 [info] [Model][openRepository] Opened repository: /home/pamela/repos/git_test
+2025-04-19 12:14:16.481 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 12:14:16.588 [info] > git config --get commit.template [37ms]
+2025-04-19 12:14:16.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-04-19 12:14:16.636 [info] > git status -z -uall [27ms]
+2025-04-19 12:14:16.639 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-04-19 12:14:16.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [98ms]
+2025-04-19 12:14:16.908 [info] > git config --get commit.template [18ms]
+2025-04-19 12:14:16.915 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-04-19 12:14:16.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2025-04-19 12:14:16.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-04-19 12:14:16.941 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-04-19 12:14:16.957 [info] > git status -z -uall [7ms]
+2025-04-19 12:14:16.958 [info] > git diff --name-status -z --diff-filter=ADMR 4a7486815c6913c5998eafb0e4ded146779ca754...refs/remotes/origin/main [13ms]
+2025-04-19 12:14:16.960 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-04-19 12:14:17.134 [info] > git show --textconv :hello_world.txt [16ms]
+2025-04-19 12:14:17.139 [info] > git ls-files --stage -- hello_world.txt [7ms]
+2025-04-19 12:14:17.146 [info] > git cat-file -s 4bc06c56720354f5699cfb4f3bfd790289aebc5c [3ms]
+2025-04-19 12:14:17.217 [info] > git blame --root --incremental 4a7486815c6913c5998eafb0e4ded146779ca754 -- hello_world.txt [5ms]
+2025-04-19 12:14:17.325 [info] > git check-ignore -v -z --stdin [2ms]
